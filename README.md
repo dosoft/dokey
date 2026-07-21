@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/dosoft/dokey/releases/latest"><img src="https://img.shields.io/github/v/release/dosoft/dokey?style=flat-square&label=release" alt="Последний релиз"></a>
-  <img src="https://img.shields.io/badge/license-not%20specified-lightgrey?style=flat-square" alt="Лицензия не указана">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="Лицензия MIT"></a>
   <a href="https://github.com/dosoft/dokey/releases"><img src="https://img.shields.io/github/downloads/dosoft/dokey/total?style=flat-square&label=downloads" alt="Количество загрузок"></a>
 </p>
 
@@ -56,6 +56,23 @@
 
 - **Окна с повышенными правами (UAC):** если активное окно запущено от администратора, а dokey — нет, переключение в нём не работает. Решение: запустить `dokey.exe` тоже от администратора. Встроенный автозапуск так и делает.
 - Поддерживаются только две раскладки: RU (`0x0419`) и EN (`0x0409`).
+
+## Поддержка проекта
+
+Если dokey оказался полезен и вы хотите поддержать его развитие:
+
+- ⭐ Поставьте звезду репозиторию на GitHub — так о проекте узнает больше людей.
+- 💰 [Поддержать через PayPal](https://paypal.me/olegda).
+- 💰 USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
+- 💰 TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+
+Ваша поддержка помогает проекту развиваться и мотивирует продолжать работу над ним.
+
+## Лицензия и обратная связь
+
+dokey распространяется по [лицензии MIT](LICENSE).
+
+Если вы нашли ошибку или хотите предложить улучшение, [создайте issue](https://github.com/dosoft/dokey/issues).
 
 ## Ссылки
 

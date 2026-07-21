@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/dosoft/dokey/releases/latest"><img src="https://img.shields.io/github/v/release/dosoft/dokey?style=flat-square&label=release" alt="Latest release"></a>
-  <img src="https://img.shields.io/badge/license-not%20specified-lightgrey?style=flat-square" alt="License not specified">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="MIT License"></a>
   <a href="https://github.com/dosoft/dokey/releases"><img src="https://img.shields.io/github/downloads/dosoft/dokey/total?style=flat-square&label=downloads" alt="Total downloads"></a>
 </p>
 
@@ -56,6 +56,23 @@ The application uses [Velopack](https://github.com/velopack/velopack). It checks
 
 - **Elevated windows (UAC):** if the active window runs as administrator while dokey does not, layout switching will not work in that window. Run `dokey.exe` as administrator as well. The built-in autostart does this automatically.
 - Only two layouts are supported: RU (`0x0419`) and EN (`0x0409`).
+
+## Support
+
+If you find dokey useful and want to support its development, you can:
+
+- ⭐ Star the repository on GitHub — it helps others discover the project.
+- 💰 [Donate via PayPal](https://paypal.me/olegda).
+- 💰 Donate via USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
+- 💰 Donate via TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+
+Your support helps the project grow and motivates further development.
+
+## License and feedback
+
+dokey is licensed under the [MIT License](LICENSE).
+
+If you encounter an issue or have a suggestion, please [open an issue](https://github.com/dosoft/dokey/issues).
 
 ## Links
 
