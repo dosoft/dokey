@@ -2,6 +2,10 @@
 
 All notable changes to dokey will be documented in this file.
 
+## [Unreleased]
+
+- Replace the keyboard artwork with a blue/red Shift-key identity across the application icon, Settings hero, and README.
+
 ## [1.0.1]
 
 - Add automatic update checks and one-click installation of new versions from the tray menu.

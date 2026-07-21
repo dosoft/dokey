@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/keyboard-readme.png" width="256" height="256" alt="Ретро-клавиатура dokey">
+  <img src="assets/dokey-logo-readme.png" width="220" height="220" alt="Сине-красный логотип dokey">
   <br>
   <img src="assets/dos-prompt.svg" width="300" height="56" alt="C:\> DOKEY_">
 </p>
