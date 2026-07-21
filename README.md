@@ -2,7 +2,15 @@
 
 **Русский** · [English](README.en.md)
 
-![Ретро-клавиатура dokey](assets/keyboard-hero.png)
+<p align="center">
+  <img src="assets/keyboard-readme.png" width="320" height="320" alt="Ретро-клавиатура dokey">
+</p>
+
+<p align="center">
+  <a href="https://github.com/dosoft/dokey/releases/latest"><img src="https://img.shields.io/github/v/release/dosoft/dokey?style=flat-square&label=release" alt="Последний релиз"></a>
+  <img src="https://img.shields.io/badge/license-not%20specified-lightgrey?style=flat-square" alt="Лицензия не указана">
+  <a href="https://github.com/dosoft/dokey/releases"><img src="https://img.shields.io/github/downloads/dosoft/dokey/total?style=flat-square&label=downloads" alt="Количество загрузок"></a>
+</p>
 
 Небольшое приложение для Windows, которое переключает раскладку клавишами **Shift**. По умолчанию левая клавиша включает английский язык, а правая — русский; это назначение можно поменять в настройках.
 
