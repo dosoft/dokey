@@ -77,3 +77,4 @@ dokey распространяется по [лицензии MIT](LICENSE).
 ## Ссылки
 
 - [Релизы и установщик](https://github.com/dosoft/dokey/releases)
+- [История изменений](CHANGELOG.md)

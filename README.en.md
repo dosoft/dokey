@@ -77,3 +77,4 @@ If you encounter an issue or have a suggestion, please [open an issue](https://g
 ## Links
 
 - [Releases and installer](https://github.com/dosoft/dokey/releases)
+- [Changelog](CHANGELOG.md)
