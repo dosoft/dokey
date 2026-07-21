@@ -2,9 +2,10 @@
 
 All notable changes to dokey will be documented in this file.
 
-## [Unreleased]
+## [1.1.0]
 
-- Replace the keyboard artwork with a blue/red Shift-key identity across the application icon, Settings hero, and README.
+- Introduce a new blue/red Shift logo across the application icon, Settings hero, and README.
+- Remove the Settings minimize button because the window is intentionally absent from the taskbar.
 
 ## [1.0.1]
 
