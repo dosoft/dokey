@@ -1,11 +1,13 @@
 # dokey
 
-**Русский** · [English](README.en.md)
+<p align="center">
+  <strong>Русский</strong> · <a href="README.en.md">English</a>
+</p>
 
 <p align="center">
   <img src="assets/keyboard-readme.png" width="256" height="256" alt="Ретро-клавиатура dokey">
   <br>
-  <code>C:\&gt; DOKEY_</code>
+  <img src="assets/dos-prompt.svg" width="300" height="56" alt="C:\> DOKEY_">
 </p>
 
 <p align="center">
