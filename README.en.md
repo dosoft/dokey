@@ -3,7 +3,9 @@
 [Русский](README.md) · **English**
 
 <p align="center">
-  <img src="assets/keyboard-readme.png" width="320" height="320" alt="dokey retro keyboard">
+  <img src="assets/keyboard-readme.png" width="256" height="256" alt="dokey retro keyboard">
+  <br>
+  <code>C:\&gt; DOKEY_</code>
 </p>
 
 <p align="center">
