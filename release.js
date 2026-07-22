@@ -14,9 +14,13 @@
       const date = new Date(latest.published_at).toLocaleDateString(ru ? 'ru-RU' : 'en-US', {
         year: 'numeric', month: 'long', day: 'numeric'
       });
-      output.textContent = ru
-        ? `Версия ${latest.tag_name} · ${date} · загрузок: ${downloads}`
-        : `Version ${latest.tag_name} · ${date} · ${downloads} downloads`;
+      output.textContent = ru ? 'Версия ' : 'Version ';
+      const version = document.createElement('strong');
+      version.className = 'release-version';
+      version.textContent = latest.tag_name;
+      output.append(version, ru
+        ? ` · ${date} · загрузок: ${downloads}`
+        : ` · ${date} · ${downloads} downloads`);
     })
     .catch(() => {});
 })();

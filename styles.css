@@ -49,6 +49,12 @@ a:hover { text-decoration: underline; }
 .button:hover { filter: brightness(1.12); text-decoration: none; transform: translateY(-1px); }
 .button.secondary { border-color: var(--line); background: rgba(255,255,255,.035); }
 .release-meta { min-height: 1.6em; margin-top: 1rem; color: var(--muted); font-size: .92rem; }
+.release-version {
+  color: var(--green);
+  font-family: "Cascadia Mono", Consolas, monospace;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(67,223,114,.25);
+}
 section { padding: 3.5rem 1rem; border-top: 1px solid var(--line); }
 section.alt { background: rgba(16,24,42,.72); }
 h2 { margin: 0 0 1rem; font-size: 1.75rem; }
