@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dosoft.github.io/dokey/sitemap.xml
