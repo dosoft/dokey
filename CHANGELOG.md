@@ -2,9 +2,28 @@
 
 All notable changes to dokey will be documented in this file.
 
-## [1.1.0]
+## [1.1.2]
 
+- When started manually, relaunch dokey with administrator rights so layout switching also works
+  in elevated applications; if elevation is declined, keep running and offer to restart as
+  administrator from a shield-marked WPF tray menu. A warning badge and tooltip keep the limited
+  mode visible until then.
+- Fix autostart on laptops: dokey now starts on battery power, is no longer stopped when the laptop
+  is unplugged, and is no longer terminated after three days of uptime. Existing autostart entries
+  are repaired automatically.
+- If dokey's autostart entry is missing or broken, ask for administrator confirmation to repair it
+  each time dokey starts.
+- Restore autostart automatically when dokey has been reinstalled or moved to another folder.
+- Report the problem in a tray notification when Windows refuses to let dokey watch the keyboard,
+  instead of quitting without a word.
+
+## [1.1.1]
+
+- Improve the RU/EN tray icons with larger color badges and clearer spacing around the labels.
+
+## [1.1.0]
 - Introduce a new blue/red Shift logo across the application icon, Settings hero, and README.
+
 - Remove the Settings minimize button because the window is intentionally absent from the taskbar.
 
 ## [1.0.1]

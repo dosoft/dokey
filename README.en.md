@@ -16,9 +16,7 @@
   <a href="https://github.com/dosoft/dokey/releases"><img src="https://img.shields.io/github/downloads/dosoft/dokey/total?style=flat-square&label=downloads" alt="Total downloads"></a>
 </p>
 
-A small Windows application that switches keyboard layouts using the **Shift** keys. By default, left Shift selects English and right Shift selects Russian; you can swap this assignment in Settings.
-
-Pressing the same key repeatedly does not change the layout. You do not need to remember which language is currently active—press the appropriate **Shift** key and continue typing.
+Standard Windows keyboard-layout shortcuts have a drawback: you need to remember which language is active and therefore whether you need to switch at all. Assigning layouts to Shift solves this: Left Shift for English and Right Shift for Russian. You can even press the same key again; the layout will not change. You can swap the assignments in Settings.
 
 I first used this switching method in DOS with **KeyRus**, and later in Windows with **Punto Switcher**. Punto Switcher eventually became too heavyweight and inconvenient for this single task, so I created a small dedicated application.
 
