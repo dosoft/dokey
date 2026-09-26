@@ -24,7 +24,7 @@ I first used this switching method in DOS with **KeyRus**, and later in Windows 
 
 Download `dokey-win-Setup.exe` from the [Releases](https://github.com/dosoft/dokey/releases) page and run it. The application installs automatically. On its first launch, dokey enables autostart (a UAC prompt may appear) so that it starts with Windows. You can disable autostart in the application settings.
 
-**Note:** the application and installer are not digitally signed yet, so Windows SmartScreen or Microsoft Defender may display a warning. This is expected—select “More info” → “Run anyway” to continue the installation.
+**Note:** the application and installer are not digitally signed yet, so Windows SmartScreen or Microsoft Defender may display a warning. This is expected — select “More info” → “Run anyway” to continue the installation.
 
 ## Usage
 
@@ -32,6 +32,7 @@ Download `dokey-win-Setup.exe` from the [Releases](https://github.com/dosoft/dok
 - By default, press **left Shift** to select the English layout.
 - Swap the left and right Shift assignments in Settings if needed.
 - The tray icon shows the current layout of the active window.
+- Click the tray icon once to switch the layout.
 - Double-click the tray icon to open Settings.
 
 ## Activation conditions
@@ -65,8 +66,8 @@ If you find dokey useful and want to support its development, you can:
 
 - ⭐ Star the repository on GitHub — it helps others discover the project.
 - 💰 [Donate via PayPal](https://paypal.me/olegda).
-- 💰 Donate via USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
-- 💰 Donate via TON: `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
+- 💰 USDT (TRC20): `TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h`.
+- 💰 GRAM (TON): `UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf`.
 
 Your support helps the project grow and motivates further development.
 

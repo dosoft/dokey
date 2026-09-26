@@ -2,11 +2,25 @@
 
 All notable changes to dokey will be documented in this file.
 
+## [Unreleased]
+
+## [1.2.0]
+
+- Simplify Settings dialog.
+- Add light, dark, and follow-Windows theme options to Settings.
+- Memory optmization (~35%)
+
+## [1.1.3]
+
+- The tray context menu now fades in instead of sliding down from above.
+- The "No updates found" dialog now reports the currently installed version, so it is clear which
+  version was checked.
+
 ## [1.1.2]
 
 - When started manually, relaunch dokey with administrator rights so layout switching also works
   in elevated applications; if elevation is declined, keep running and offer to restart as
-  administrator from a shield-marked WPF tray menu. A warning badge and tooltip keep the limited
+  administrator from a marked tray menu. A warning badge and tooltip keep the limited
   mode visible until then.
 - Fix autostart on laptops: dokey now starts on battery power, is no longer stopped when the laptop
   is unplugged, and is no longer terminated after three days of uptime. Existing autostart entries
