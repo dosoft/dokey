@@ -42,14 +42,14 @@ All binding, confirmed by the maintainer:
 
 - Name and persona: DOKEY / DOKEY.EXE.
 - DOS/terminal identity: the page is a terminal session — a `C:\>` command line, `>` output-line markers, `[ LABEL ]` section headings with `==` rules, and `-` / `[n]` list markers.
-- ASCII logo mark (the shaded-block DOKEY — a `░▒▓█` density ramp, light at the top and solid at the baseline) and the pixel/logo artwork (`logo.png`, `logo.webp`).
+- ASCII logo mark (the shaded-block DOKEY — a `░▒▓█` density ramp, light at the top and solid at the baseline) and the pixel/logo artwork (`assets/dokey-logo-readme.png`).
 - Green-on-dark palette and monospace typography.
 - First-person nostalgic voice (KeyRus → Punto Switcher → DOKEY story) in both locales.
 
 ## Evidence on Hand
 
 - Working, shipped bilingual site: `site/index.html`, `site/ru/index.html`, `site/styles.css`, `site/release.js`.
-- Brand assets: `site/logo.png`, `site/logo.webp`, `assets/dokey-logo-readme.png`, `assets/dos-prompt.svg`, and the self-hosted display face `site/fonts/press-start-2p-*.woff2` (SIL OFL 1.1).
+- Brand assets: `assets/dokey-logo-readme.png` (source artwork), `assets/dos-prompt.svg`, the site's derived icons (`site/favicon-32.png`, `site/apple-touch-icon.png`, `site/og-image.png`), and the self-hosted faces `site/fonts/press-start-2p-*.woff2` and `site/fonts/dokey-blocks.woff2` (both SIL OFL 1.1).
 - Live release/download numbers via GitHub API (rendered client-side; nothing is fabricated).
 - No testimonials, press, benchmarks, or user counts beyond GitHub download totals — do not invent any.
 
