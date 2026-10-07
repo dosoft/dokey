@@ -1,4 +1,65 @@
 (function () {
+  const targets = document.querySelectorAll('[data-copyright-years]');
+  if (!targets.length) return;
+  const start = 2026;
+  const current = new Date().getFullYear();
+  const years = current > start ? `${start}–${current}` : String(start);
+  targets.forEach(el => { el.textContent = years; });
+})();
+
+/* Number keys fire the hero actions, matching the [1] and [2] hints. */
+(function () {
+  const buttons = document.querySelectorAll('.cta .button');
+  if (buttons.length < 2) return;
+  document.addEventListener('keydown', event => {
+    if (event.repeat || event.ctrlKey || event.metaKey || event.altKey) return;
+    const index = event.key === '1' ? 0 : event.key === '2' ? 1 : -1;
+    if (index < 0) return;
+    const button = buttons[index];
+    if (!button) return;
+    event.preventDefault();
+    button.classList.add('is-pressed');
+    window.setTimeout(() => button.classList.remove('is-pressed'), 170);
+    button.click();
+  });
+})();
+
+/* Wallet addresses copy on click and confirm in the terminal's own voice. */
+(function () {
+  const buttons = document.querySelectorAll('.copy');
+  if (!buttons.length) return;
+  const write = text => {
+    if (navigator.clipboard) return navigator.clipboard.writeText(text);
+    const field = document.createElement('textarea');
+    field.value = text;
+    field.setAttribute('readonly', '');
+    field.style.position = 'fixed';
+    field.style.opacity = '0';
+    document.body.append(field);
+    field.select();
+    const copied = document.execCommand('copy');
+    field.remove();
+    return copied ? Promise.resolve() : Promise.reject(new Error('copy failed'));
+  };
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const hint = button.nextElementSibling;
+      const show = (text, failed) => {
+        if (!hint) return;
+        hint.textContent = text;
+        hint.classList.toggle('is-failed', failed);
+        hint.classList.add('is-on');
+        window.clearTimeout(hint._hintTimer);
+        hint._hintTimer = window.setTimeout(() => hint.classList.remove('is-on'), 1600);
+      };
+      write(button.dataset.copy)
+        .then(() => show(button.dataset.copied || '', false))
+        .catch(() => show(button.dataset.failed || '', true));
+    });
+  });
+})();
+
+(function () {
   const output = document.getElementById('release-meta');
   if (!output) return;
   const ru = document.documentElement.lang === 'ru';

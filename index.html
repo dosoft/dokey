@@ -9,7 +9,7 @@
   <link rel="alternate" hreflang="en" href="https://dosoft.github.io/dokey/">
   <link rel="alternate" hreflang="ru" href="https://dosoft.github.io/dokey/ru/">
   <link rel="alternate" hreflang="x-default" href="https://dosoft.github.io/dokey/">
-  <meta name="theme-color" content="#090d18">
+  <meta name="theme-color" content="#0a0906">
   <link rel="icon" type="image/png" href="logo.png">
   <meta property="og:title" content="DOKEY — Switch keyboard layouts with Shift">
   <meta property="og:description" content="Choose English or Russian directly with the left and right Shift keys.">
@@ -18,34 +18,48 @@
   <meta property="og:image" content="https://dosoft.github.io/dokey/logo.png">
   <meta property="og:locale" content="en_US">
   <meta name="twitter:card" content="summary">
-  <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"DOKEY","applicationCategory":"UtilitiesApplication","operatingSystem":"Windows 10, Windows 11","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://dosoft.github.io/dokey/","downloadUrl":"https://github.com/dosoft/dokey/releases"}</script>
+  <link rel="stylesheet" href="styles.css?v=9289784">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"DOKEY","applicationCategory":"UtilitiesApplication","operatingSystem":"Windows 10, Windows 11","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://dosoft.github.io/dokey/","downloadUrl":"https://github.com/dosoft/dokey/releases","author":{"@type":"Person","name":"Oleg Danilov","url":"https://olegd.com/en"}}</script>
 </head>
 <body>
-  <nav class="container lang"><span class="active">English</span><span aria-hidden="true">·</span><a href="ru/">Русский</a></nav>
-  <header class="hero">
-    <div class="container">
-      <picture><source srcset="logo.webp" type="image/webp"><img class="logo" src="logo.png" alt="DOKEY logo" width="160" height="160"></picture>
-      <h1 class="prompt">C:\&gt; DOKEY_</h1>
-      <p class="tagline">Switch keyboard layouts with the Shift keys: left for English, right for Russian.</p>
-      <div class="cta"><a class="button" href="https://github.com/dosoft/dokey/releases/latest">Download for Windows</a><a class="button secondary" href="https://github.com/dosoft/dokey">View on GitHub</a></div>
-      <p id="release-meta" class="release-meta"></p>
+  <div class="crt container">
+    <div class="terminal">
+    <nav class="terminal-nav"><a href="https://github.com/dosoft/dokey/issues">Report an issue</a><span class="language"><a class="lang active" href="./" aria-current="page" lang="en"><span class="lamp is-on" aria-hidden="true"></span>EN</a><a class="lang" href="ru/" lang="ru"><span class="lamp" aria-hidden="true"></span>RU</a></span></nav>
+    <header class="terminal-header">
+      <div class="terminal-content">
+        <p class="command">C:\&gt; DOKEY.EXE /?</p>
+        <pre class="ascii-mark" role="img" aria-label="DOKEY">
+░░░░░   ░░░░   ░   ░  ░░░░░  ░   ░
+▒    ▒ ▒    ▒  ▒  ▒   ▒      ▒   ▒
+▒    ▒ ▒    ▒  ▒▒▒    ▒▒▒▒    ▒ ▒
+▓    ▓ ▓    ▓  ▓  ▓   ▓        ▓
+█████   ████   █   █  █████    █</pre>
+        <h1>Switch layouts.<br>One key at a time.</h1>
+        <p class="tagline">Left Shift selects English. Right Shift selects Russian. No cycling, no guessing.</p>
+        <div class="cta"><a class="button" href="https://github.com/dosoft/dokey/releases/latest"><span class="key">[1]</span> Download for Windows</a><a class="button secondary" href="https://github.com/dosoft/dokey"><span class="key">[2]</span> Browse project</a></div>
+        <p id="release-meta" class="release-meta"></p>
+      </div>
+    </header>
+    <main class="terminal-content">
+      <section class="output-section"><h2><span>WHY DOKEY?</span></h2><p>Standard Windows shortcuts make you remember which language is active. DOKEY assigns one layout to each <strong>Shift</strong> key: <strong>Left Shift</strong> for English, <strong>Right Shift</strong> for Russian. Pressing the same key again leaves the layout as it is. Swap the assignments in Settings.</p><p>I first used this method in DOS with <strong>KeyRus</strong>, then in Windows with <strong>Punto Switcher</strong>. When Punto Switcher became too heavyweight for this single task, I made a small dedicated utility.</p></section>
+      <section class="output-section"><h2><span>FEATURES</span></h2><dl class="feature-list">
+        <div><dt>LEFT SHIFT</dt><dd>Selects English directly, without cycling through layouts.</dd></div>
+        <div><dt>RIGHT SHIFT</dt><dd>Selects Russian directly. Repeating the key changes nothing.</dd></div>
+        <div><dt>KEYS</dt><dd>Letters, arrows, mouse clicks and modifier combinations keep their normal behavior.</dd></div>
+        <div><dt>TRAY</dt><dd>Shows the active window's current EN or RU layout.</dd></div>
+        <div><dt>SETTINGS</dt><dd>Swap key assignments and adjust the maximum press duration.</dd></div>
+        <div><dt>UPDATES</dt><dd>Checks GitHub Releases and notifies you when a new version is available.</dd></div>
+        <div><dt>PRIVACY</dt><dd>No telemetry or analytics. Distributed under the MIT License.</dd></div>
+      </dl></section>
+      <section class="output-section"><h2><span>ACTIVATION CONDITIONS</span></h2><p>The layout changes only after a <strong>clean</strong> Shift press:</p><ul role="list"><li>no other key is pressed at the same time (Ctrl, Alt, Win, letters, arrows, and so on);</li><li>no mouse button is clicked while Shift is held;</li><li>if Shift is held for longer than 300 ms (configurable), the layout is not changed.</li></ul><p>Normal Shift behavior — including Shift+letter, Shift+arrow, and Shift+click — is unaffected.</p></section>
+      <section class="output-section"><h2><span>REQUIREMENTS</span></h2><ul role="list"><li>Windows 10 or 11.</li><li>RU (<code>0419</code>) and EN (<code>0409</code>) layouts installed in Windows language settings.</li></ul></section>
+      <section class="output-section"><h2><span>INSTALL</span></h2><ol role="list"><li>Download <code>dokey-win-Setup.exe</code> from <a href="https://github.com/dosoft/dokey/releases/latest">Releases</a>.</li><li>Run the per-user installer. No separate .NET installation is required.</li><li>DOKEY starts in the tray. Open Settings to change assignments or auto-start.</li></ol><p class="notice">Note: Windows SmartScreen may warn that the installer is unsigned. To proceed with the installation, click “More info” → “Run anyway”.</p></section>
+      <section class="output-section"><h2><span>KNOWN LIMITATIONS</span></h2><ul role="list"><li><strong>Elevated windows (UAC):</strong> if the active window runs as administrator while DOKEY does not, layout switching will not work in that window. Run <code>dokey.exe</code> as administrator as well. The built-in autostart does this automatically.</li><li>Only two layouts are supported: RU (<code>0419</code>) and EN (<code>0409</code>).</li></ul></section>
+      <section class="output-section"><h2><span>SUPPORT</span></h2><p>If DOKEY is useful, star it on <a href="https://github.com/dosoft/dokey">GitHub</a> or support development:</p><ul role="list"><li><a href="https://paypal.me/olegda">PayPal</a></li><li>USDT (TRC20): <button type="button" class="copy" data-copy="TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h" data-copied="copied" data-failed="copy failed" aria-label="Copy USDT (TRC20) address">TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h</button><span class="copy-hint" role="status"></span></li><li>GRAM (TON): <button type="button" class="copy" data-copy="UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf" data-copied="copied" data-failed="copy failed" aria-label="Copy GRAM (TON) address">UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf</button><span class="copy-hint" role="status"></span></li></ul></section>
+    </main>
+    <footer class="terminal-footer"><p>DOKEY is available under the <a href="https://github.com/dosoft/dokey/blob/main/LICENSE">MIT License</a>. <span class="sep" aria-hidden="true">·</span> <a href="https://github.com/dosoft/dokey/releases">Download</a></p><p>Copyright © <span data-copyright-years>2026</span> <a href="https://olegd.com/en">Oleg Danilov</a></p></footer>
     </div>
-  </header>
-  <main>
-    <section class="alt"><div class="container"><h2>Why DOKEY?</h2><p>Standard Windows keyboard-layout shortcuts have a drawback: you need to remember which language is active and therefore whether you need to switch at all. Assigning layouts to <strong>Shift</strong> solves this: <strong>Left Shift</strong> for English and <strong>Right Shift</strong> for Russian. You can even press the same key again; the layout will not change. You can swap the assignments in Settings.</p><p>I first used this switching method in DOS with <strong>KeyRus</strong>, and later in Windows with <strong>Punto Switcher</strong>. Punto Switcher eventually became too heavyweight and inconvenient for this single task, so I created a small dedicated application.</p></div></section>
-    <section><div class="container"><h2>Features</h2><div class="features">
-      <article class="feature"><h3>Direct switching</h3><p>One key selects the exact layout instead of cycling through a list.</p></article>
-      <article class="feature"><h3>Normal Shift behavior</h3><p>Shift combined with letters, arrows, mouse clicks or modifier keys works as usual.</p></article>
-      <article class="feature"><h3>System tray</h3><p>The tray icon shows the active window's current EN or RU layout.</p></article>
-      <article class="feature"><h3>Customizable</h3><p>Swap left/right assignments and adjust the maximum press duration.</p></article>
-      <article class="feature"><h3>Automatic updates</h3><p>Checks GitHub Releases and notifies you when a new version is available.</p></article>
-      <article class="feature"><h3>Private and free</h3><p>No telemetry or analytics. Open source under the MIT License.</p></article>
-    </div></div></section>
-    <section class="alt"><div class="container"><h2>How to install</h2><ol><li>Download <code>dokey-win-Setup.exe</code> from <a href="https://github.com/dosoft/dokey/releases/latest">Releases</a>.</li><li>Run the per-user installer; no separate .NET installation is required.</li><li>DOKEY starts in the tray. Open Settings to change key assignments or auto-start.</li></ol><p>Windows SmartScreen may warn that the installer is unsigned. Choose “More info” and “Run anyway” if you trust the download.</p></div></section>
-    <section><div class="container"><h2>Support the project</h2><p>If DOKEY is useful, star it on <a href="https://github.com/dosoft/dokey">GitHub</a> or support development:</p><ul><li><a href="https://paypal.me/olegda">PayPal</a></li><li>USDT (TRC20): <code>TH1EKSqqK8EqGtfjpVbGi9YWjqpqy2rC7h</code></li><li>GRAM (TON): <code>UQDIDJxzNDWlkv2ZQl6nxourhU7nwlBkErXDE3W7wJkJ_dGf</code></li></ul></div></section>
-  </main>
-  <footer><div class="container"><p>DOKEY is available under the <a href="https://github.com/dosoft/dokey/blob/main/LICENSE">MIT License</a>.</p><p><a href="https://github.com/dosoft/dokey/issues">Report an issue</a> · <a href="https://github.com/dosoft/dokey/releases">Download</a></p></div></footer>
-  <script src="release.js"></script>
+  </div>
+  <script src="release.js?v=9289784"></script>
 </body>
 </html>
