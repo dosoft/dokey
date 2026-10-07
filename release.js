@@ -7,23 +7,6 @@
   targets.forEach(el => { el.textContent = years; });
 })();
 
-/* Number keys fire the hero actions, matching the [1] and [2] hints. */
-(function () {
-  const buttons = document.querySelectorAll('.cta .button');
-  if (buttons.length < 2) return;
-  document.addEventListener('keydown', event => {
-    if (event.repeat || event.ctrlKey || event.metaKey || event.altKey) return;
-    const index = event.key === '1' ? 0 : event.key === '2' ? 1 : -1;
-    if (index < 0) return;
-    const button = buttons[index];
-    if (!button) return;
-    event.preventDefault();
-    button.classList.add('is-pressed');
-    window.setTimeout(() => button.classList.remove('is-pressed'), 170);
-    button.click();
-  });
-})();
-
 /* Wallet addresses copy on click and confirm in the terminal's own voice. */
 (function () {
   const buttons = document.querySelectorAll('.copy');
