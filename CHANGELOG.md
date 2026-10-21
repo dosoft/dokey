@@ -4,6 +4,11 @@ All notable changes to dokey will be documented in this file.
 
 ## [Unreleased]
 
+## [1.2.1]
+
+- Add Terminal Dark theme option to Settings.
+- Fix vertical alignment of labels, toggles, and dropdown text in Settings.
+
 ## [1.2.0]
 
 - Simplify Settings dialog.
