@@ -2,7 +2,10 @@
 
 All notable changes to dokey will be documented in this file.
 
-## [Unreleased]
+## [1.2.2]
+
+- Fix autostart: the entry dokey creates for Windows was rejected, so dokey never started at sign-in
+  even with the setting enabled. The entry is created again the next time dokey starts.
 
 ## [1.2.1]
 
