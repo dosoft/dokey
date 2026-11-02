@@ -2,6 +2,13 @@
 
 All notable changes to dokey will be documented in this file.
 
+## [2.0.0]
+
+- Reduce the app executable from 30.86 MiB to 12.21 MiB.
+- Reduce background memory use from 69.8 MiB to 15.1 MiB of working memory.
+- Reduce startup time from a median of 544 ms to 78 ms.
+- Fit the Settings window on displays with limited vertical space.
+
 ## [1.2.2]
 
 - Fix autostart: the entry dokey creates for Windows was rejected, so dokey never started at sign-in

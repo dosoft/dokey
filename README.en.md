@@ -16,7 +16,7 @@
   <a href="https://github.com/dosoft/dokey/releases"><img src="https://img.shields.io/github/downloads/dosoft/dokey/total?style=flat-square&label=downloads" alt="Total downloads"></a>
 </p>
 
-Standard Windows keyboard-layout shortcuts have a drawback: you need to remember which language is active and therefore whether you need to switch at all. Assigning layouts to Shift solves this: Left Shift for English and Right Shift for Russian. You can even press the same key again; the layout will not change. You can swap the assignments in Settings.
+Standard Windows keyboard-layout shortcuts have a drawback: you need to remember which language is active and therefore whether you need to switch at all. Assigning a layout to each Shift key solves this: each key always selects its assigned layout. You can even press the same key again; the layout will not change. You can change the assignments in Settings.
 
 I first used this switching method in DOS with **KeyRus**, and later in Windows with **Punto Switcher**. Punto Switcher eventually became too heavyweight and inconvenient for this single task, so I created a small dedicated application.
 
@@ -49,7 +49,7 @@ Normal Shift behavior—including Shift+letter, Shift+arrow, and Shift+click—i
 
 - Windows 10 or 11.
 - RU (`0419`) and EN (`0409`) layouts installed in Windows language settings.
-- The installer includes the .NET Runtime as part of the self-contained build.
+- The application does not require the .NET Runtime.
 
 ## Updates
 
@@ -79,5 +79,6 @@ If you encounter an issue or have a suggestion, please [open an issue](https://g
 
 ## Links
 
+- [dokey website](https://dosoft.github.io/dokey/)
 - [Releases and installer](https://github.com/dosoft/dokey/releases)
 - [Changelog](CHANGELOG.md)
