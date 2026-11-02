@@ -2,6 +2,10 @@
 
 All notable changes to dokey will be documented in this file.
 
+## [2.0.1]
+
+- Fix tray menu responsiveness and language icon updates.
+
 ## [2.0.0]
 
 - Reduce the app executable from 30.86 MiB to 12.21 MiB.
