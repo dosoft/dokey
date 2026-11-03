@@ -2,6 +2,13 @@
 
 All notable changes to dokey will be documented in this file.
 
+## [Unreleased]
+
+## [2.0.2]
+
+- Show dokey as the app name in Windows notifications.
+- Report the result of a manual update check, including when dokey is up to date or the check fails.
+
 ## [2.0.1]
 
 - Fix tray menu responsiveness and language icon updates.
